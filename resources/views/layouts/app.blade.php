@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -26,8 +27,8 @@
 
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
 {{--                    {{ config('app.name', 'Laralile') }}--}}
-                    <div><img src="/svg/example.svg" style="width: 50px; height: 30px;"></div>
-                    <div>Laragram</div>
+                    <div><img src="/svg/example.svg" style="width: 50px; height: 30px; border-right: 1px solid #0b2e13"></div>
+                    <div class="pl-5 pd-3">Laragram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
