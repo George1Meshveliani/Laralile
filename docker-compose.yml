@@ -24,6 +24,9 @@ services:
             - sail
         depends_on:
             - mysql
+#    phpmyadmin:
+#        networks:
+#            - sail
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
