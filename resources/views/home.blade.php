@@ -25,6 +25,20 @@
                 </div>
             </div>
         </div>
+        <div class="row pt-5">
+            <div class="col-4">
+                <img class="w-100 pt-3" src="https://i1.rgstatic.net/ii/profile.image/876708773240832-1586035068034_Q512/George-Meshveliani.jpg">
+            </div>
+            <div class="col-4">
+                <img class="w-100 pt-3" src="https://i1.rgstatic.net/ii/profile.image/876708773240832-1586035068034_Q512/George-Meshveliani.jpg">
+            </div>
+            <div class="col-4">
+                <img class="w-100 pt-3" src="https://i1.rgstatic.net/ii/profile.image/876708773240832-1586035068034_Q512/George-Meshveliani.jpg">
+            </div>
+            <div class="col-4">
+                <img class="w-100 pt-3" src="https://i1.rgstatic.net/ii/profile.image/876708773240832-1586035068034_Q512/George-Meshveliani.jpg">
+            </div>
+        </div>
     </div>
 
 </div>
