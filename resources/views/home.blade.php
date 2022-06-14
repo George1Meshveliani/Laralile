@@ -13,12 +13,9 @@
             </div>
             <div>
                 <h1>here are all users:</h1>
-{{--                {{ foreach() }}--}}
-                <tr>
-                    <th>
-
-                    </th>
-                </tr>
+                @foreach($users as $user)
+                    <li>{{ $user->username }} </li>
+                @endforeach
             </div>
         </div>
     </div>
